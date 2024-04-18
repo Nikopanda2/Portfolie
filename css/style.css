@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0000FF, #9B30FF, #FF1493); /* Bisexual flag colors */
+}
+
+
+
+.footer {
+    background: linear-gradient(to right, #e929af, #137dd3, #FF1493); /* Adjusted colors for footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.frame {
+    width: 600px; /* Larger frame size */
+    height: 600px; /* Larger frame size */
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: ;
+}
+
+.text-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(160, 98, 218, 0.733);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
